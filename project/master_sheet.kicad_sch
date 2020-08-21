@@ -1,0 +1,53 @@
+(kicad_sch (version 20200714) (host eeschema "(5.99.0-2858-ga3fc028c9b)")
+
+  (page 2 5)
+
+  (paper "A4")
+
+  (title_block
+    (title "EDSCH0003-V2")
+    (date "07/10/2019")
+    (rev "A")
+    (comment 1 "VeSPA - PCIe INTERPOSER")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 35.941 36.8808) (size 35.56 3.81)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005d9baf88)
+    (property "Sheet name" "AMPLIFIERS" (id 0) (at 35.941 36.2453 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "amplifiers.kicad_sch" (id 1) (at 35.941 41.1993 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 35.941 26.7208) (size 35.56 3.81)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005d9baf86)
+    (property "Sheet name" "CONNECTORS" (id 0) (at 35.941 26.0853 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "connectors.kicad_sch" (id 1) (at 35.941 31.0393 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 35.941 47.0408) (size 35.56 3.81)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005db14821)
+    (property "Sheet name" "REDRIVER" (id 0) (at 35.941 46.4053 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "redriver.kicad_sch" (id 1) (at 35.941 51.3593 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+)
